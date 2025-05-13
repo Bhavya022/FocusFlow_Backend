@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // your frontend origin
+  origin: '*', // Allow requests from any origin
   credentials: true
 }));
 
